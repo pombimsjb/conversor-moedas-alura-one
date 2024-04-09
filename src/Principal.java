@@ -1,13 +1,9 @@
 import com.google.gson.Gson;
 import com.google.gson.JsonObject;
+import model.ConsultaApi;
 import model.Moedas;
 
 import java.io.IOException;
-import java.net.URI;
-import java.net.URLEncoder;
-import java.net.http.HttpClient;
-import java.net.http.HttpRequest;
-import java.net.http.HttpResponse;
 import java.util.Scanner;
 
 public class Principal {
@@ -19,18 +15,10 @@ public class Principal {
         System.out.println("Digite a moeda de destino (ex: BRL):");
         String moedaDestino = leitor.nextLine();
 
+
         Moedas moedas = new Moedas(moedaOrigem, moedaDestino);
-        var token = "SEU_TOKEN";
-        String tokenCodificado = URLEncoder.encode(token, "UTF-8");
-
-        var linkApi = "https://api.invertexto.com/v1/currency/" + moedas + "?token=" + tokenCodificado;
-
-        HttpClient client = HttpClient.newHttpClient();
-        HttpRequest request = HttpRequest.newBuilder()
-                .uri(URI.create(linkApi))
-                .build();
-        HttpResponse<String> response = client.send(request, HttpResponse.BodyHandlers.ofString());
-        String json = response.body();
+        ConsultaApi consultaApi = new ConsultaApi(moedas);
+        String json = consultaApi.consultaDados();
 
         JsonObject jsonObject = new Gson().fromJson(json, JsonObject.class);
 
