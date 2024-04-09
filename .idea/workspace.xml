@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2b78b39d-c91f-4bca-ac1f-9f6bbb4b6758" name="Changes" comment="Limpeza de código e criação de classe ConsultaApi">
-      <change beforePath="$PROJECT_DIR$/src/model/ConsultaApi.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/model/ConsultaApi.java" afterDir="false" />
+    <list default="true" id="2b78b39d-c91f-4bca-ac1f-9f6bbb4b6758" name="Changes" comment="Retirada de Token pessoal do Projeto.">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -108,7 +108,7 @@
       <workItem from="1712624989445" duration="2772000" />
       <workItem from="1712627801281" duration="2617000" />
       <workItem from="1712660943042" duration="5130000" />
-      <workItem from="1712704718304" duration="1645000" />
+      <workItem from="1712704718304" duration="1693000" />
     </task>
     <task id="LOCAL-00001" summary="Fim do Projeto">
       <option name="closed" value="true" />
@@ -142,7 +142,15 @@
       <option name="project" value="LOCAL" />
       <updated>1712706367885</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Retirada de Token pessoal do Projeto.">
+      <option name="closed" value="true" />
+      <created>1712706399642</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1712706399642</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -152,6 +160,7 @@
     <MESSAGE value="Fim do Projeto" />
     <MESSAGE value="Criação arquivo README" />
     <MESSAGE value="Limpeza de código e criação de classe ConsultaApi" />
-    <option name="LAST_COMMIT_MESSAGE" value="Limpeza de código e criação de classe ConsultaApi" />
+    <MESSAGE value="Retirada de Token pessoal do Projeto." />
+    <option name="LAST_COMMIT_MESSAGE" value="Retirada de Token pessoal do Projeto." />
   </component>
 </project>

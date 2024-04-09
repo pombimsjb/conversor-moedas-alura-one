@@ -10,6 +10,9 @@ Projeto feito utilizado instruções em aula de consumo de api do Curso de Java 
 
 ## Para gerar seu token para consumir a API
 
+OBS: O exemplo feito em aula utilizava a Api do[ExchangeRate Api](https://www.exchangerate-api.com/). 
+No meu caso resolvi utilizar a Api do [Inverter Texto](https://api.invertexto.com/api-conversor-moedas) por conta da facilidade de personalizar a pesquisa de diferentes moedas para conversão. 
+
 LEMBRE-SE DE PREENCHER CORRETAMENTE O TOKEN DE ACESSO A API 
 
 [API Conversor de Moedas | api.invertexto.com](https://api.invertexto.com/api-conversor-moedas)
