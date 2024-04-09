@@ -31,7 +31,6 @@ public class Principal {
                 .build();
         HttpResponse<String> response = client.send(request, HttpResponse.BodyHandlers.ofString());
         String json = response.body();
-        Gson gson = new Gson();
 
         JsonObject jsonObject = new Gson().fromJson(json, JsonObject.class);
 
