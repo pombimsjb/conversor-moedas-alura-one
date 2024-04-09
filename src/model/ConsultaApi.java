@@ -10,7 +10,7 @@ import java.net.http.HttpResponse;
 import java.nio.charset.StandardCharsets;
 
 public class ConsultaApi {
-    private String token = "7298|PfcisrVCYb0OX1AYOB9pF46Wc4uGQN2S";
+    private String token = "SEU_TOKEN";
     private String encodedToken = URLEncoder.encode(token, StandardCharsets.UTF_8);
     private Moedas moedas;
 
